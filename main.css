@@ -1,0 +1,223 @@
+/* main orange: rgb(202, 112, 9) */
+
+html {
+	height: 100%;
+	width: 100%;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.margin-lr-5 {
+	/* do individual as hidden <p> styling */
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.flex-basic-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-basic-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-grid {
+	flex: 1;
+	display: grid;
+	grid-template-rows: 50px 160px auto;
+}
+
+.content-wrap {
+	width: 970px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+/* TOP NAV */
+.top-nav {
+	background-color: rgb(202, 112, 9);
+	display: flex;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+.nav-call-now {
+	color: red;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.nav-number {
+	color: white;
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+.nav-login {
+	color: red;
+	font-size: 1em;
+	font-weight: 350;
+}
+.nav-signup {
+	color: white;
+	font-size: 1em;
+	font-weight: 350;
+}
+
+/* SECOND NAV */
+
+.second-nav {
+	background-color: #fcf4ea;
+	display: flex;
+}
+
+.logo-first {
+	font-size: 3em;
+	color: rgb(20, 20, 20);
+	font-weight: 600;
+}
+.logo-second {
+	font-size: 3em;
+	color: rgb(202, 112, 9);
+	font-weight: 600;
+}
+.second-nav-item {
+	font-size: 16px;
+	font-weight: 150;
+	color: rgb(51, 49, 49);
+}
+.second-nav-item:hover {
+	font-size: 17px;
+	font-weight: 250;
+	color: black;
+	border-bottom: 3px solid orange;
+}
+
+/* MAIN CONTENT */
+
+.content {
+	width: 970px;
+	margin: 0 auto;
+
+	align-self: flex-start;
+	padding: 2em;
+	display: flex;
+	align-items: flex-start;
+}
+
+.nav-page {
+	font-size: 14px;
+	color: rgb(136, 133, 133);
+
+	margin: 3em 0;
+}
+.current-page {
+	color: black;
+	font-weight: 600;
+}
+.content-title {
+	font-size: 2.5em;
+	font-weight: 600;
+	color: rgb(202, 112, 9);
+	margin: 0.5em 0;
+}
+.content-text {
+	font-size: 1em;
+	color: rgb(100, 98, 98);
+}
+
+/* FOOTER */
+
+.footer {
+	width: 970px;
+	margin: 0 auto;
+
+	align-self: flex-start;
+	padding: 2em;
+	display: flex;
+	align-items: flex-start;
+}
+
+.footer-part {
+	flex: 1;
+	display: flex;
+	align-items: flex-start;
+
+	margin: 1em;
+}
+.footer-label {
+	width: 100%;
+
+	font-size: 1.75em;
+	color: rgb(202, 112, 9);
+
+	border-bottom: 5px solid rgb(88, 86, 86);
+}
+
+.special-info-row {
+	margin: 10px 0;
+	font-size: 1.1em;
+
+	color: rgb(58, 57, 57);
+
+	font-weight: 500;
+}
+
+.info-row {
+	font-size: 0.9em;
+
+	color: rgb(80, 79, 79);
+}
+
+form {
+	padding: 1em;
+	flex: 1;
+	align-self: stretch;
+}
+input {
+	flex: 1;
+	width: 100%;
+	margin: 1em;
+	padding: 15px;
+}
+textarea {
+	flex: 1;
+	width: 100%;
+	margin: 1em;
+	padding: 15px;
+}
+button {
+	background-color: rgb(202, 112, 9);
+	align-self: flex-start;
+	padding: 15px 10px;
+	width: 120px;
+	margin-top: 2em;
+
+	color: white;
+
+	font-weight: 600;
+	font-size: 0.85em;
+}
